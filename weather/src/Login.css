@@ -1,0 +1,48 @@
+#mainDiv {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+form{
+    width: 25%;
+    height: 20vh;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+}
+
+
+
+label {
+    float: left;
+}
+
+.x{
+    padding: 10px;
+}
+
+
+.x input{
+    float: right;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+button{
+    width: 50%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: lightcyan;
+    
+}
